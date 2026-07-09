@@ -7,8 +7,6 @@ cask "lightsout" do
   desc "Menubar app to turn the display off while the Mac stays awake"
   homepage "https://github.com/botelle/lightsout"
 
-  depends_on macos: ">= :ventura"
-
   app "LightsOut.app"
 
   zap trash: [
